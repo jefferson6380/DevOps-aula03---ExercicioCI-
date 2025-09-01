@@ -11,4 +11,4 @@ jobs:
 
   steps:
     - name: "printa Hello World"
-      run: echo: ""Hello World"
+      run: echo ""Hello World"
