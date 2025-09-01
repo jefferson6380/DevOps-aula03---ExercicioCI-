@@ -14,4 +14,4 @@ jobs:
         run: echo "Hello World"
 
       - name: estou usando o repositorio...
-        run: echo "estou usando o repositorio - $({ github.repository })"
+        run: echo "estou usando o repositorio - ${{ github.repository }}"
