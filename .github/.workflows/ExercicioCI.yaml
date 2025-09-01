@@ -1,0 +1,14 @@
+name: "Primeiro exercício de CI - Fundamentos"
+
+on:
+  push:
+    branch: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  Primeiro_job-build:
+    runs-on: ubunto-latest
+
+  steps:
+    - name: "printa Hello World"
+      run: echo: ""Hello World"
