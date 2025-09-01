@@ -15,6 +15,3 @@ jobs:
 
       - name: estou usando o repositorio...
         run: echo "estou usando o repositorio - $({ github.repository })"
-
-
-      
