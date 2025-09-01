@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  Primeiro_job-build:
+  PrimeiroJob-build:
     runs-on: ubunto-latest
 
-  steps:
-    - name: "printa Hello World"
-      run: echo ""Hello World"
+    steps:
+      - name: "printa Hello World"
+        run: echo ""Hello World"
