@@ -3,7 +3,9 @@ name: "Primeiro exercício de CI Fundamentos"
 on:
   push:
     branch: [ "main" ]
+    
   workflow_dispatch:
+
 
 jobs:
   PrimeiroJob-build:
@@ -15,3 +17,6 @@ jobs:
 
       - name: estou usando o repositorio...
         run: echo "estou usando o repositorio - ${{ github.repository }}"
+
+      - name: ignorando arquivo
+        run: touch .gitgnore
