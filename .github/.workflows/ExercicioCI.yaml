@@ -1,4 +1,4 @@
-name: "Primeiro exercício de CI - Fundamentos"
+name: "Primeiro exercício de CI Fundamentos"
 
 on:
   push:
@@ -12,3 +12,8 @@ jobs:
     steps:
       - name: printa Hello World
         run: echo ""Hello World"
+
+      - name: estou usando o repositorio...
+        run: "estou usando o repositorio - $({ github.repository })"
+
+      
