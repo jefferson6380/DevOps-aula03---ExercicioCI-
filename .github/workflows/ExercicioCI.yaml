@@ -23,11 +23,7 @@ jobs:
 
       - name: ignorando arquivo
         run: touch .gitgnore
-
-
-
-
-
+      
       - name: Meu nome e RA
         run: echo "Jefferson Nacimento - 6324617"
       - name: Mostra o diretório de trabalho
