@@ -18,5 +18,21 @@ jobs:
       - name: estou usando o repositorio...
         run: echo "estou usando o repositorio - ${{ github.repository }}"
 
+      - name: ignorar alteração no readme.md
+        run: echo "trabalhando nisso..."
+
       - name: ignorando arquivo
         run: touch .gitgnore
+
+
+
+
+
+      - name: Meu nome e RA
+        run: echo "Jefferson Nacimento - 6324617"
+      - name: Mostra o diretório de trabalho
+        run: pmd
+      - name: Mostra o nome do repositório
+        run: acho "${{ github.repository }}"
+
+
